@@ -36,7 +36,7 @@ button:focus {
 }
 
 #header {
-    background-image: url('img/taishan.jpg');
+    background-image: url('../img/taishan.jpg');
     background-size: cover;
     /* 固定背景圖 */
     background-attachment: fixed;

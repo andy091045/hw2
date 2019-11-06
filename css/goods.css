@@ -36,7 +36,7 @@ button:focus {
 }
 
 #header {
-    background-image: url('img/taishan.jpg');
+    background-image: url('../img/taishan.jpg');
     background-size: cover;
     /* 固定背景圖 */
     background-attachment: fixed;
@@ -125,39 +125,39 @@ button:focus {
 
 
 #galleryImage1 {
-    background-image: url('img/img_汽水-01-01.jpg');
+    background-image: url('../img/img_汽水-01-01.jpg');
 }
 
 #galleryImage2 {
-    background-image: url('img/img_果汁.jpg');
+    background-image: url('../img/img_果汁.jpg');
 }
 
 #galleryImage3 {
-    background-image: url('img/img_泡麵-01-01.jpg');
+    background-image: url('../img/img_泡麵-01-01.jpg');
 }
 
 #galleryImage4 {
-    background-image: url('img/img_茶飲-01_0.jpg');
+    background-image: url('../img/img_茶飲-01_0.jpg');
 }
 
 #galleryImage5 {
-    background-image: url('img/img_薯片-02-01.jpg');
+    background-image: url('../img/img_薯片-02-01.jpg');
 }
 
 #galleryImage6 {
-    background-image: url('img/img_蛋糕-01.jpg');
+    background-image: url('../img/img_蛋糕-01.jpg');
 }
 
 #galleryImage7 {
-    background-image: url('img/img_餅乾-01_0.jpg');
+    background-image: url('../img/img_餅乾-01_0.jpg');
 }
 
 #galleryImage8 {
-    background-image: url('img/img_糖果-01-01.jpg');
+    background-image: url('../img/img_糖果-01-01.jpg');
 }
 
 #chosse2 {
-    background-image: url('img/chosse2.jpg');
+    background-image: url('../img/chosse2.jpg');
     margin: 5% 0 1% 0;
 }
 
