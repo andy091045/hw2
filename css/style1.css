@@ -1,0 +1,197 @@
+/*=============================================
+=                  General                    =
+=============================================*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+}
+
+/*=============================================
+=                  Header                     =
+=============================================*/
+
+.jumbotron {
+    padding: 200px 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+#header {
+    background-image: url('/img/taishan.jpg');
+    background-size: cover;
+    /* 固定背景圖 */
+    background-attachment: fixed;
+    position: relative;
+}
+
+#header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#header>.container {
+    position: relative;
+    z-index: 5;
+}
+
+/*=============================================
+=                  Intro                      =
+=============================================*/
+
+/*=============================================
+=                  Features                   =
+=============================================*/
+
+/*=============================================
+=                  Reviews                    =
+=============================================*/
+
+.carousel-indicators>li {
+    border-radius: 50%;
+}
+
+/*=============================================
+=                  Gallery                    =
+=============================================*/
+
+/* TODO: 設定Hover特效 */
+
+
+
+
+
+
+
+
+/*=============================================
+=                  Start Now                  =
+=============================================*/
+
+/*=============================================
+=                   Footer                    =
+=============================================*/
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-end p {
+    font-size: 8px;
+    margin: 0;
+}
+
+#goBackBtn {
+    width: 40px;
+    height: 40px;
+    border:none;
+}
+
+.space{
+    padding:10px 0px;
+}
+
+/* 其他商品 */
+.other{
+  
+    padding-right:100px;
+    padding-left: 135px;
+    display: flex;
+    flex-direction:row ;
+    
+   
+}
+
+
+
+
+.other-product{
+    margin-right: 30px;
+    border-radius:8px;
+    
+    height:420px;
+    width: 380px;
+   
+    padding: 1.2% 0.4%;
+    background-color:rgb(100, 93, 86);
+}
+
+.title1{
+    font-size: 50px;    
+  }
+
+.top{
+    margin-top: 100px;
+}
+
+/* row 的間距 */
+.top30{
+    margin-top: 30px;
+}
+
+.mtop20{
+   
+    margin-top: 20px;
+}
+
+.mtop30{
+   
+    margin-top: 30px;
+}
+
+.mtop15{
+    margin-top: 15px;
+}
+
+.mtop3p{
+    margin-top: 3%;
+}
+
+.mtop10p{
+    margin-top: 10%;
+}
+
+.mbottom20{
+    margin-bottom: 20px;
+}
+
+.mright23{
+    margin-right: 23px;
+}
+.mleft15{
+    margin-left: 4%;
+}
+
+.bottom{
+    margin-bottom: 100px;
+}
+
+
+

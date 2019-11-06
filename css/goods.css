@@ -1,0 +1,276 @@
+/*=============================================
+=                  General                    =
+=============================================*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'cwTeXYen', sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*=============================================
+=                  Navbar                     =
+=============================================*/
+
+.navbar {
+    box-shadow: 0 3px 18px rgba(0, 0, 0, .11);
+}
+
+/*=============================================
+=                  Header                     =
+=============================================*/
+
+.jumbotron {
+    padding: 200px 0px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+#header {
+    background-image: url('/img/taishan.jpg');
+    background-size: cover;
+    /* 固定背景圖 */
+    background-attachment: fixed;
+    position: relative;
+}
+
+#header:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#header>.container {
+    position: relative;
+    z-index: 5;
+}
+
+/*=============================================
+=                  Intro                      =
+=============================================*/
+
+/*=============================================
+=                  Features                   =
+=============================================*/
+
+/*=============================================
+=                  Reviews                    =
+=============================================*/
+
+.carousel-indicators>li {
+    border-radius: 50%;
+}
+
+/*=============================================
+=                  Gallery                    =
+=============================================*/
+
+/* TODO: 設定Hover特效 */
+
+[id^='galleryImage'] {
+    background-size: cover;
+    height: 350px;
+    filter: grayscale(100%);
+}
+
+[id^='galleryImage']>.gallery-text {
+    margin-top: 50px;
+    color: rgb(206, 157, 93);
+    font-size: 6px;
+    line-height: 200px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+    opacity: 0;
+    transition: all .5s ease;
+    
+}
+[id^='galleryImage']:hover {
+    filter: grayscale(0%);
+}
+
+[id^='galleryImage']:hover>.gallery-text {
+    opacity: 1;
+    font-size: 70px;
+}
+
+[id^='chosse2']>.gallery-text {
+
+    color: rgb(206, 157, 93);
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 200px;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    text-align: center;
+   
+    transition: all .5s ease;
+    
+}
+
+/* 放入背景圖片 */
+
+
+#galleryImage1 {
+    background-image: url('/img/img_汽水-01-01.jpg');
+}
+
+#galleryImage2 {
+    background-image: url('/img/img_果汁.jpg');
+}
+
+#galleryImage3 {
+    background-image: url('/img/img_泡麵-01-01.jpg');
+}
+
+#galleryImage4 {
+    background-image: url('/img/img_茶飲-01_0.jpg');
+}
+
+#galleryImage5 {
+    background-image: url('/img/img_薯片-02-01.jpg');
+}
+
+#galleryImage6 {
+    background-image: url('/img/img_蛋糕-01.jpg');
+}
+
+#galleryImage7 {
+    background-image: url('/img/img_餅乾-01_0.jpg');
+}
+
+#galleryImage8 {
+    background-image: url('/img/img_糖果-01-01.jpg');
+}
+
+#chosse2 {
+    background-image: url('/img/chosse2.jpg');
+    margin: 5% 0 1% 0;
+}
+
+/*=============================================
+=                  Start Now                  =
+=============================================*/
+
+/*=============================================
+=                   Footer                    =
+=============================================*/
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-end p {
+    font-size: 8px;
+    margin: 0;
+}
+
+#goBackBtn {
+    width: 40px;
+    height: 40px;
+    border:none;
+}
+
+.space{
+    padding:10px 0px;
+}
+
+
+/* row 的間距 */
+.top30{
+    margin-top: 30px;
+}
+
+.mtop20{
+   
+    margin-top: 20px;
+}
+
+.mtop15{
+    margin-top: 15px;
+}
+
+.mtop50{
+    margin-top: 15px;
+}
+
+.mtop278{
+    margin-top: 30px;
+}
+
+.mtop3p{
+    margin-top: 3%;
+}
+
+.mtop10p{
+    margin-top: 10%;
+}
+
+.mbottom20{
+    margin-bottom: 20px;
+}
+
+.mbottom10p{
+    margin-bottom:10%;
+}
+
+.mright23{
+    margin-right: 23px;
+}
+.mleft15{
+    margin-left: 4%;
+}
+
+.mleft-15{
+    margin-left: -15px;
+}
+.bottom{
+    margin-bottom: 100px;
+}
+
+.choose{
+    margin-top: 20px;  
+    padding-bottom: 15px;
+    background-color: rgb(100, 92, 83);
+    border-radius:8px;
+
+}
+
+.colu-3{
+    flex: 0 0 1.5%;
+    max-width:  1.5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.colu-4 {
+    flex: 0 0 32.33333%;
+    max-width: 32.33333%; }
+.hot{
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 200px;
+   padding:-20% 0;
+    text-align: center;
+    color: #3d3d3d;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
