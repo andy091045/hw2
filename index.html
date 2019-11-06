@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>肥宅快樂網</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css">
+    <link rel="icon" href="/img/img_mini_iconpro.png">
+
+    <!-- 連結Bootstrap.min.css -->
+    <!-- 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- 使用font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- 使用style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 連結Bootstrap所需要的js -->
+    <!-- jquery.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- popper.min.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap.min.js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- 連結網頁主程式 -->
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- 使用Boostrap Navbar -->
+    <!-- 設定Navbar緊貼畫面上緣 fixed-top -->
+    <!-- TODO: 點擊滾動目標 -->
+    <!-- b4-元件名稱-default -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary fixed-top">
+        <a class="navbar-brand" href="#"><img src="/img/img_feijailogo.png" width=150px height=40px alt=""></a>
+        <!-- 行動裝置的選單按鈕 -->
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 其他的元素 -->
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link ">首頁</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#featuresSection" class="nav-link">關於我們</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallerySection" class="nav-link ">宅宅食物</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="header" class="jumbotron bg-dark text-secondary">
+        <div class="container">
+            <h1 class="display-4">人可輕於鴻毛 或重於泰山</h1>
+            <p class="lead">讓人類的重量更加偉大</p>
+        </div>
+    </header>
+
+
+    <!-- featuresSection -->
+    <section id="featuresSection" class="py-5 bg-secondary text-secondary">
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <!-- TODO: 為article1 article2 設置collapse互動方式 -->
+                    <article class="my-3" id="article1">
+                        <h3 class="section-title mb-5 text-center">肥 宅 快 樂 的 秘 方</h3>
+                        <p class="text-center">The Secret of Being Happy from Feijai </p>
+                    </article>
+                    <div class="space"></div>
+                    <article class="my-3" id="article2">
+                        <p class="text-center">從資訊到實品，我們致力於解決您體重過輕的問題!</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- featuresSection end -->
+
+    <!-- reviewsSection -->
+    <section id="reviewsSection" class="py-5">
+        <!-- TODO: 使用輪播(Carousel)元件放入以下兩頁內容 -->
+        <!-- 第一頁 內容 -->
+        <div class="row justify-content-center ">
+            <div class="col-sm-2 mtb3p">
+                <!-- TODO: 設定使用者照片變圓型 -->
+                <img src="/img/img_andy.png" alt="user photo">
+            </div>
+            <div class="col-sm-6 mtb3p">
+                <h3 class="title">網頁程式</h3>
+                <h4 class="name">肥宅甲</h4>
+                <p>近期的人類們因廢寢忘食的玩手機而營養不良、逐漸消瘦，我們將提供這個平台讓大家更方便的購買高脂高糖的營養食品讓大家能夠繼續奮戰。</p>
+            </div>
+        </div>
+        <div class="space"></div>
+        <!-- 第一頁 內容 結束 -->
+        <!-- 第二頁 -->
+        <div class="row justify-content-center">
+            <div class="col-sm-2 mtb3p">
+                <!-- TODO: 設定使用者照片變圓型 -->
+                <img src="/img/img_eric.png" alt="user photo">
+            </div>
+            <div class="col-sm-6 mtb3p">
+                <h3 class="title">網頁設計</h3>
+                <h4 class="name">肥宅乙</h4>
+                <p>我們致力開發一個能夠與「肥宅快樂水」、「肥宅快樂餐」相呼應的「肥宅快樂網」。透過這個網站，可以使我們的客戶不論逛到任何分頁都能感到快樂。相信這個網站絕對是作為肥宅長期以來，購買零嘴的最佳省時工具。
+                </p>
+            </div>
+        </div>
+        <!-- 第二頁 結束 -->
+    </section>
+
+
+    <!-- 圖片輪播 -->
+    <!-- 如果畫面上有一個以上的輪播，id不可重複 -->
+    <!-- b4-carousel-default -->
+    <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="7000">
+        <!-- 頁碼顯示器 -->
+        <ol class="carousel-indicators">
+            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#imageCarousel" data-slide-to="1"></li>
+            <li data-target="#imageCarousel" data-slide-to="2"></li>
+            <li data-target="#imageCarousel" data-slide-to="3"></li>
+            <li data-target="#imageCarousel" data-slide-to="4"></li>
+        </ol>
+        <!-- 頁面容器 -->
+        <div class="carousel-inner" role="listbox">
+            <!-- 第一頁 -->
+            <div class="carousel-item active">
+                <img src="/img/img_ad7-01.jpg" width=1200px height=800px alt="" class="w-100">
+            </div>
+            <!-- 第二頁 -->
+            <div class="carousel-item">
+                <img src="/img/img_AD03-01.jpg" width=1200px height=800px alt="" class="w-100">
+            </div>
+            <!-- 第三頁 -->
+            <div class="carousel-item">
+                <img src="/img/img_AD07-01.jpg" width=1200px height=800px alt="" class="w-100">
+            </div>
+            <!-- 第四頁 -->
+            <div class="carousel-item">
+                <img src="/img/img_ad2.png" width=1200px height=800px alt="" class="w-100">
+            </div>
+            <!-- 第五頁 -->
+            <div class="carousel-item">
+                <img src="/img/img_ad5-01.png" width=1200px height=800px alt="" class="w-100">
+            </div>
+        </div>
+        <!-- 回到上一頁 -->
+        <!-- <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a> -->
+        <!-- 移動到下一頁 -->
+        <!-- <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+    </div>
+    <!-- 圖片輪播 end -->
+
+    <section id="gallerySection" class="py-3">
+        <div class="hot">
+            宅宅食物
+        </div>
+    </section>
+
+    <!-- TODO: 加入彈出式視窗 Modal -->
+    <!-- TODO: 於彈出式視窗內插入Bootstrap input表單 -->
+    <!-- modalSection end -->
+    <!-- gallerySection -->
+    <section>
+        <!-- 設定此區塊為四個一排並加入hover特效 -->
+        <div class="row1">
+            <div class="col-md-3 col-3" id="galleryImage1">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none; ">汽水系列</a></div>
+
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage2">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none; ">果汁系列</a></div>
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage3">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none;">泡麵系列</a></div>
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage4">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none;">茶飲系列</a></div>
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage5">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none; ">洋芋片系列</a></div>
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage6">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none; ">蛋糕系列</a></div>
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage7">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none; ">餅乾系列</a></div>
+            </div>
+            <div class="col-md-3 col-6" id="galleryImage8">
+                <div class="gallery-text"><a href="/goods.html" style="text-decoration:none; ">糖果系列</a></div>
+            </div>
+        </div>
+    </section>
+    <!-- gallerySection end -->
+
+    <!-- footer -->
+    <footer id="footer" class="pt-5 bg-secondary text-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2  footer-list">
+                    <h4>聯繫我們</h4>
+                    <a href="mailto:service@brand.com"
+                        style="text-decoration:none; color:rgb(206, 157, 93);">yuan880502@gmail.com</a>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-2  footer-list">
+                    <h5 class="text-uppercase">首頁</h5>
+                    <ul>
+                        <li>
+                            <a href="/index.html" style="text-decoration:none; ">關於我們</a>
+                        </li>
+                        <li>
+                            <a href="/index.html" style="text-decoration:none;">宅宅食物</a>
+                        </li>
+                        <li>
+
+                    </ul>
+                </div>
+                <div class="col-md-2  footer-list">
+                    <h5 class="text-uppercase">最新資訊</h5>
+                    <ul>
+                        <li>
+                            <a href="#" style="text-decoration:none; ">產品推銷</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration:none; ">心情分享</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-2  footer-list">
+                    <h5 class="text-uppercase">新品上市</h5>
+                    <ul>
+                        <li>
+                            <a href="#" style="text-decoration:none; ">熱門商品</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration:none;">最新上架</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2  footer-list">
+                    <h5 class="text-uppercase">加入會員</h5>
+                    <ul>
+                        <li>
+                            <a href="#" style="text-decoration:none; ">登入</a>
+                        </li>
+                        <li>
+                            <a href="#" style="text-decoration:none;">註冊</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
